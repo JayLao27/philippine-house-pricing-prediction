@@ -10,11 +10,11 @@ st.set_page_config(page_title="House Price Predictor", page_icon="🏠")
 def load_model_components():
     """Load all model components once"""
     try:
-        model = joblib.load('feature/gradient_boost_model.pkl')
-        feature_scaler = joblib.load('feature/features_scaler.pkl')
-        target_scaler = joblib.load('feature/target_scaler.pkl')
-        feature_columns = joblib.load('feature/feature_columns.pkl')
-        numerical_cols = joblib.load('feature/numerical_cols.pkl')
+        model = joblib.load('train/gradient_boost_model.pkl')
+        feature_scaler = joblib.load('train/features_scaler.pkl')
+        target_scaler = joblib.load('train/target_scaler.pkl')
+        feature_columns = joblib.load('train/feature_columns.pkl')
+        numerical_cols = joblib.load('train/numerical_cols.pkl')
         return model, feature_scaler, target_scaler, feature_columns, numerical_cols
     except FileNotFoundError as e:
         st.error(f"Missing file: {e.filename}")
