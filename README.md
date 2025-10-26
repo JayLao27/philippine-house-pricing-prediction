@@ -182,12 +182,12 @@ See [`requirements.txt`](requirements.txt) for complete list.
 
 ## 📈 Future Improvements
 
-- [ ] Add more location-specific features (neighborhood, amenities)
-- [ ] Include property age and condition
-- [ ] Implement time-series analysis for price trends
-- [ ] Add confidence intervals for predictions
-- [ ] Expand dataset to more Philippine cities
-- [ ] Mobile application development
+ Add more location-specific features (neighborhood, amenities)
+ Include property age and condition
+ Implement time-series analysis for price trends
+ Add confidence intervals for predictions
+ Expand dataset to more Philippine cities
+ Mobile application development
 
 ## 🤝 Contributing
 
@@ -218,3 +218,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Note**: Predictions are estimates based on historical data and should be used as a reference only. Actual market prices may vary based on additional factors not captured in the model.
+
